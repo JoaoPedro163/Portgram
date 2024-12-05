@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Portfólio João Pedro</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" style="margin-top: 5%;">
+                <div class="col-sm-3">
+                    <img th:src="@{/images/foto.jpeg}" width="223px" height="209" style="border-radius: 50%; object-fit: cover;"/>
+                </div>
+
+                <div class="col-sm-9">
+
+                    <h2>JoãoPedro</h2>
+                    <p>Projetos finalizados: <strong><span></span></strong></p>
+                    <p>João Pedro Silva Mendes de Souza</p>
+                    <p>Formação: Desenvolvimento de software e cursando Engenharia de software</p>
+
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 3%;">
+                <div class="col-sm-1">
+                    <div class="row">
+                        <div>
+                            <a>
+                                <img th:src="@{/images/projetos.png}" width="94px" height="80px" style="border-radius: 50%;"/> 
+                                <p style="text-align: center;"><strong>Projetos</strong></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!---Aqui serão inseridos os destaques-->
+                <hr/>
+            </div>
+
+
+
+            <div id="topicos">
+                <img/>
+            </div>
+        </div>
+    </body>
+</html>
